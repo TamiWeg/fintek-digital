@@ -1,4 +1,4 @@
 PORT=8080
 WEATHER_API_KEY=68b8c66e81614dee8ec74250250403
 WEATHER_API_URL = https://api.weatherapi.com/v1/forecast.json
-CITIES_API_URL=
+CITIES_API_URL=https://countriesnow.space/api/v0.1/countries
