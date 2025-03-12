@@ -40,7 +40,7 @@ Steps to Run Locally
 
 Clone the repository:
 
-git clone https://github.com/fintek-digital.git
+git clone https://github.com/TamiWeg/fintek-digital.git
 
 Navigate to the project directory:
 
