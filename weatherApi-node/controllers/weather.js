@@ -20,7 +20,7 @@ const getWeatherByCityName = async (req, res) => {
 // Fetch all cities from the world's countries
 const getAllCitiesInWorld = async (req, res) => {
     try {
-        const response = await axios.get("https://countriesnow.space/api/v0.1/countries");
+        const response = await axios.get(process.env.CITIES_API_URL);
         const cities = response.data.data.flatMap((country) => country.cities);
         return res.json({ cities });
     } catch (err) {
